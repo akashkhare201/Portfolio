@@ -1,6 +1,7 @@
 /* toggeler style Switcher */
 const styleSwitcherToggle= document.querySelector(".style-switcher-toggler")
-styleSwitcherToggle.addEventListener("click", () => {
+
+styleSwitcherToggle.addEventListener("click", ()=>{
     document.querySelector(".style-switcher").classList.toggle("open")
 })
 /* hide style switch on scroll*/
